@@ -1,0 +1,32 @@
+
+format = '$python$gradle $directory λ '
+right_format = '$git_branch $git_status $time'
+
+add_newline = false
+
+[directory]
+format = '[$path]($style)[$read_only]($read_only_style)'
+
+[time]
+format = '[$time]($style)'
+disabled = false
+
+[git_branch]
+format = '[$symbol$branch(:$remote_branch)]($style)'
+
+[git_status]
+format = '([$all_status]($style))'
+conflicted = '(${count}= )'
+ahead = '(${count}⇡ )'
+behind = '(${count}⇣ )'
+diverged = '(${count}⇕ )'
+untracked = '(${count}? )'
+stashed = '(${count}\$ )'
+modified = '(${count}! )'
+staged = '(${count}+ )'
+renamed = '(${count}» )'
+deleted = '(${count}✘ )'
+
+[python]
+format = '[\($virtualenv\)]($style)'
+style = 'green bold'

@@ -1,0 +1,39 @@
+* {
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 17px;
+  padding: 0;
+  margin: 0;
+}
+
+#waybar {
+  color: @foreground;
+  background-color: @background;
+}
+
+#workspaces button {
+  color: @foreground;
+  padding-left: 0.2em;
+  padding-right: 0.6em;
+}
+
+#workspaces button.empty {
+  color: #212020;
+}
+#network.disabled {
+  color: #212020;
+}
+
+#memory,
+#temperature {
+  padding-left: 1em;
+}
+
+#wireplumber,
+#battery,
+#backlight,
+#language,
+#network,
+#bluetooth,
+#tray {
+  padding-right: 1em;
+}
