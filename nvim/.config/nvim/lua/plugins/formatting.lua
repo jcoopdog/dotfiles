@@ -19,7 +19,7 @@ return {
 				graphql = { "prettier" },
 				lua = { "stylua" },
 				python = { "isort", "ruff" },
-                odin = { "odinfmt"}
+				odin = { "odinfmt" },
 			},
 			format_on_save = {
 				lsp_fallback = true,

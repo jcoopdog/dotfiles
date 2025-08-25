@@ -15,7 +15,7 @@ ssid=$(wpa_cli status | grep "^ssid" | cut -d= -f2)
 
 g=$(brightnessctl g);
 m=$(brightnessctl m);
-brightness=$(echo "scale=1;($g/$m)*100" | bc | cut -d'.' -f1 )
+brightness=$(echo "scale=3;($g/$m)*100" | bc | cut -d'.' -f1 )
 
 vol=$(wpctl get-volume @DEFAULT_SINK@)
 

@@ -11,16 +11,6 @@ zstyle :compinstall filename '/home/cooper/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
-#autoload -Uz vcs_info
-#precmd() { vcs_info }
-#zstyle ":vcs_info:*" formats '%s %F{blue}%b%f '
-#setopt prompt_subst
-#PROMPT=' %F{blue}%~%f λ '
-#RPROMPT='$vcs_info_msg_0_%F{green}%*%f'
-
-#(cat ~/.cache/wal/sequences &)
-#source ~/.cache/wal/colors-tty.sh
-
 
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.local/share/zinit/zinit.git/zinit.zsh ]]; then
@@ -54,20 +44,51 @@ bindkey '^\t' autosuggest-accept
 
 ZSH_AUTOSUGGEST_STRATEGY=(completion history)
 
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-#[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-#typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
+export EDITOR="nvim"
+export PAGER="less"
 
-# alias beats='bluetoothctl connect B8:21:1C:91:9D:51'
+export LESS_TERMCAP_mb=$(tput bold; tput setaf 1)
+export LESS_TERMCAP_md=$(tput bold; tput setaf 1)
+export LESS_TERMCAP_me=$(tput sgr0)
+export LESS_TERMCAP_se=$(tput sgr0)
+export LESS_TERMCAP_so=$(tput bold; tput setaf 3; tput setab 4)
+export LESS_TERMCAP_ue=$(tput sgr0)
+export LESS_TERMCAP_us=$(tput smul; tput bold; tput setaf 2)
+export LESS_TERMCAP_mr=$(tput rev)
+export LESS_TERMCAP_mh=$(tput dim)
+export LESS_TERMCAP_ZN=$(tput ssubm)
+export LESS_TERMCAP_ZV=$(tput rsubm)
+export LESS_TERMCAP_ZO=$(tput ssupm)
+export LESS_TERMCAP_ZW=$(tput rsupm)
+
+fuzzy_edit() {
+    input=$(fzf --preview="cat {}")
+    [ -n "$input"] && nvim "$input"
+}
+
+alias beats='bluetoothctl connect B8:21:1C:91:9D:51'
 
 alias 'll=eza -lh --icons --total-size --git'
 alias 'ls=eza -lh --icons --git'
-alias 'v=nvim $(fzf --preview="cat {}")'
+alias 'la=eza -lha --icons --git'
+alias 'l=eza --icons'
+alias 'v=fuzzy_edit'
+# alias 'nvim=vim .'
+alias 'glg=git lg | head'
+
+nvim() {
+    if [ -z "$1"]; then
+        command nvim .
+    else
+        command nvim "$1"
+    fi
+}
 
 mkcd(){mkdir -p $1 && cd $1}
 killapp(){kill $(pidof "$1")}
 export VISUAL=nvim
 
+eval "$(thefuck --alias wut)"
 eval "$(starship init zsh)"
 #export XDG_RUNTIME_DIR=/run/user/1000
 export FZF_DEFAULT_OPTS=$FZF_DEFAULT_OPTS' --color=fg:#ffffff,bg:#161616,hl:#08bdba --color=fg+:#f2f4f8,bg+:#262626,hl+:#3ddbd9 --color=info:#78a9ff,prompt:#33b1ff,pointer:#42be65 --color=marker:#ee5396,spinner:#ff7eb6,header:#be95ff'

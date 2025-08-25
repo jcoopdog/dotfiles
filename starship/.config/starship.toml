@@ -25,7 +25,7 @@ stashed = '(${count}\$ )'
 modified = '(${count}! )'
 staged = '(${count}+ )'
 renamed = '(${count}» )'
-deleted = '(${count}✘ )'
+deleted = '(${count}✗ )'
 
 [python]
 format = '[\($virtualenv\)]($style)'

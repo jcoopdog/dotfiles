@@ -1,28 +1,41 @@
+let mapleader = " "
 lua require("config.lazy")
 
 highlight RedundantWhitespace ctermbg=cyan guibg=cyan
 match RedundantWhitespace /\s\+$\| \+\ze\t/
+set incsearch
 set number
 set relativenumber
 set softtabstop=4
 set tabstop=4
 set shiftwidth=4
 set expandtab
-set listchars=eol:↴,tab:│·,space:·
+set listchars=eol:↴,tab:│·,space:·,extends:>,precedes:<,trail:~
 set list
 set termguicolors
 set nowrap
 set mousescroll=ver:3,hor:0
-let hlstate=0
-nnoremap <F4> <cmd>nohlsearch<cr>
+set colorcolumn=100
 lua vim.diagnostic.config({ virtual_text = true })
-"autocmd ColorScheme * highlight Normal ctermbg=NONE guibg=NONE
+
+
 set background=dark
 colorscheme oxocarbon
-"colorscheme wal
+InvertCmpColors
 "TransparentEnable
-nnoremap <Tab> <cmd>tabnext<cr>
-nnoremap <S-Tab> <cmd>tabprev<cr>
+
+
+nnoremap <silent> <leader>h <cmd>nohlsearch<cr>
+nnoremap <leader>w <cmd>w<cr>
+nnoremap <leader>wa <cmd>wall<cr>
+nnoremap <leader>l <C-w>d
+nnoremap <leader>j <C-d>
+nnoremap <leader>k <C-u>
+nnoremap <silent> - <cmd>Oil<cr>
+nnoremap U <C-r>
+nnoremap Y y$
+nnoremap <silent> <Tab> <cmd>tabnext<cr>
+nnoremap <silent> <S-Tab> <cmd>tabprev<cr>
 nnoremap <S-cr> o<Esc>
 inoremap <S-cr> <Esc>o
 vnoremap <Tab> >
@@ -31,12 +44,6 @@ vnoremap <S-Tab> <
 command! Q q!
 command! Wq wq
 command! W w
-
-"Hyprlang LSP
-"lua vim.api.nvim_create_autocmd({'BufEnter', 'BufWinEnter'}, { pattern = {"*.hl", "hypr*.conf"}, callback = function(event) vim.lsp.start { name = "hyprlang", cmd = {"hyprls"}, root_dir = vim.fn.getcwd(), } end })
-"lua vim.filetype.add({ pattern = { [".*/hypr/.*%.conf"] = "hyprlang" }, })
-
-
 
 " force myself to use hjkl
 
