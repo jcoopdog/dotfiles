@@ -45,6 +45,7 @@ bindkey '^\t' autosuggest-accept
 ZSH_AUTOSUGGEST_STRATEGY=(completion history)
 
 export EDITOR="nvim"
+export MANPAGER='nvim +Man!'
 export PAGER="less"
 
 export LESS_TERMCAP_mb=$(tput bold; tput setaf 1)
@@ -63,7 +64,7 @@ export LESS_TERMCAP_ZW=$(tput rsupm)
 
 fuzzy_edit() {
     input=$(fzf --preview="cat {}")
-    [ -n "$input"] && nvim "$input"
+    [ -n "$input" ] && nvim $input
 }
 
 alias beats='bluetoothctl connect B8:21:1C:91:9D:51'
@@ -77,10 +78,10 @@ alias 'v=fuzzy_edit'
 alias 'glg=git lg | head'
 
 nvim() {
-    if [ -z "$1"]; then
+    if [ -z "$1" ]; then
         command nvim .
     else
-        command nvim "$1"
+        command nvim $1
     fi
 }
 
@@ -88,6 +89,7 @@ mkcd(){mkdir -p $1 && cd $1}
 killapp(){kill $(pidof "$1")}
 export VISUAL=nvim
 
+eval "$(zoxide init zsh --cmd cd)"
 eval "$(thefuck --alias wut)"
 eval "$(starship init zsh)"
 #export XDG_RUNTIME_DIR=/run/user/1000

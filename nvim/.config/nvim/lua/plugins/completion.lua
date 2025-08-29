@@ -52,7 +52,7 @@ return {
 					-- completion = cmp.config.window.bordered(),
 					completion = {
 						-- winhighlight = "Normal:Pmenu,FloatBorder:Pmenu,Search:None",
-						col_offset = -3,
+						col_offset = 2,
 						side_padding = 0,
 					},
 					-- documentation = cmp.config.window.bordered(),
@@ -100,7 +100,7 @@ return {
 					{ name = "buffer" },
 				}),
 				formatting = {
-					-- fields = { "abbr", "kind", "menu" },
+					-- fields = { "abbr", "kind" },
 					-- format = require("lspkind").cmp_format({ mode = "symbol_text" }),
 					format = function(_, vim_item)
 						vim_item.kind = (cmp_kinds[vim_item.kind] or "") .. vim_item.kind

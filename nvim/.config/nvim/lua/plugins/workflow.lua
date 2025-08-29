@@ -16,4 +16,8 @@ return {
 		version = "*", -- Pin Neorg to the latest stable release
 		config = true,
 	},
+	{
+		"smjonas/inc-rename.nvim",
+		opts = {},
+	},
 }

@@ -1,4 +1,4 @@
-#/bin/bash
+#/usr/bin/env bash
 
 battery=$(cat /sys/class/power_supply/BAT0/capacity)
 battery_charging=$(cat /sys/class/power_supply/AC/online)
@@ -17,6 +17,17 @@ g=$(brightnessctl g);
 m=$(brightnessctl m);
 brightness=$(echo "scale=3;($g/$m)*100" | bc | cut -d'.' -f1 )
 
-vol=$(wpctl get-volume @DEFAULT_SINK@)
+volraw=$(wpctl get-volume @DEFAULT_SINK@ | cut -d' ' -f2)
+vol=$(echo "scale=3;$volraw*100" | bc | cut -d'.' -f1)
 
-echo "$brightness󰳲 | $battery% | $ssid | $datetime "
+if [ $vol -ge 50 ]; then
+    volicon=󰕾
+elif [ $vol -gt 0 ]; then
+    volicon=󰖀
+else
+    volicon=󰕿
+fi
+
+
+
+echo "$vol$volicon | $brightness󰳲 | $battery% | $ssid | $datetime "
