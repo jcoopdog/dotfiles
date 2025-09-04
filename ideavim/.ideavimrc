@@ -1,0 +1,25 @@
+let mapleader=" "
+
+Plug 'tpope/vim-commentary'
+
+set showmode
+set showcmd
+set rnu
+set incsearch
+set shell=/bin/zsh
+
+nmap <C-s> <Action>(ActivateTerminalToolWindow)
+nmap <C-t> <Action>(ActivateTODOToolWindow)
+nnoremap <silent> <leader>h :nohlsearch<cr>
+nnoremap <leader>w :write<cr>
+nnoremap <leader>wa :wall<cr>
+nnoremap <leader>e :e<cr>
+nnoremap U <C-r>
+nnoremap Y y$
+nnoremap <silent> <Tab> :tabnext<cr>
+nnoremap <silent> <S-Tab> :tabprev<cr>
+nnoremap <S-cr> o<Esc>
+inoremap <S-cr> <Esc>o
+vnoremap <Tab> >
+vnoremap <S-Tab> <
+map Q gq

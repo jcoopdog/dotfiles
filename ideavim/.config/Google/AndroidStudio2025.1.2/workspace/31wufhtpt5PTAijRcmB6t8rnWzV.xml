@@ -1,0 +1,879 @@
+<project version="4">
+  <component name="BookmarksManager">
+    <option name="groups">
+      <GroupState>
+        <option name="name" value="18848-decode" />
+      </GroupState>
+    </option>
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="4b1c433e:BranchNodeDescriptor$Root" />
+        <item name="LOCAL" type="7ab31ef7:BranchNodeDescriptor$TopLevelGroup" />
+      </path>
+      <path>
+        <item name="ROOT" type="4b1c433e:BranchNodeDescriptor$Root" />
+        <item name="REMOTE" type="7ab31ef7:BranchNodeDescriptor$TopLevelGroup" />
+      </path>
+      <path>
+        <item name="ROOT" type="4b1c433e:BranchNodeDescriptor$Root" />
+        <item name="REMOTE" type="7ab31ef7:BranchNodeDescriptor$TopLevelGroup" />
+        <item name="REMOTE:origin" type="9a375a70:BranchNodeDescriptor$RemoteGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf ideFingerprint="31o3eh83f3g3n" SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file>
+        <entry file="file://$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes/Auto.kt">
+          <provider editor-type-id="android-source-code" selected="true">
+            <state>
+              <editor-state relative-caret-position="81">
+                <caret line="7" selection-start-line="7" selection-end-line="7" />
+              </editor-state>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"Auto.kt","foregroundColor":-2960686,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,107,111,116,108,105,110,95,102,105,108,101,46,115,118,103,18,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,107,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-98,-111,-47,-25,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes/BlankAuto.kt">
+          <provider editor-type-id="android-source-code" selected="true">
+            <state>
+              <editor-state relative-caret-position="189">
+                <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+              </editor-state>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"BlankAuto.kt","foregroundColor":-2960686,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,99,108,97,115,115,75,111,116,108,105,110,46,115,118,103,18,53,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,99,108,97,115,115,75,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-16,-50,-72,-55,2,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes/Teleop.kt">
+          <provider editor-type-id="android-source-code" selected="true">
+            <state>
+              <editor-state relative-caret-position="3942">
+                <caret line="135" column="33" selection-start-line="135" selection-start-column="33" selection-end-line="135" selection-end-column="33" />
+              </editor-state>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"Teleop.kt","foregroundColor":-2960686,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,107,111,116,108,105,110,95,102,105,108,101,46,115,118,103,18,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,107,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-98,-111,-47,-25,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/subsystems/Intake.kt">
+          <provider editor-type-id="android-source-code" selected="true">
+            <state>
+              <editor-state />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"Intake.kt","foregroundColor":-2960686,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,107,111,116,108,105,110,95,102,105,108,101,46,115,118,103,18,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,107,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-98,-111,-47,-25,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/hardware/NgMotor.kt">
+          <provider editor-type-id="android-source-code" selected="true">
+            <state>
+              <editor-state relative-caret-position="135">
+                <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+              </editor-state>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"NgMotor.kt","foregroundColor":-2960686,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,99,108,97,115,115,75,111,116,108,105,110,46,115,118,103,18,53,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,99,108,97,115,115,75,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-16,-50,-72,-55,2,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/subsystems/Drivetrain.kt">
+          <provider editor-type-id="android-source-code" selected="true">
+            <state>
+              <editor-state relative-caret-position="810">
+                <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+              </editor-state>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"Drivetrain.kt","foregroundColor":-2960686,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,99,108,97,115,115,75,111,116,108,105,110,46,115,118,103,18,53,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,99,108,97,115,115,75,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-16,-50,-72,-55,2,48,0]}]]></tab>
+      </file>
+      <file current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/state/State.kt">
+          <provider editor-type-id="android-source-code" selected="true">
+            <state>
+              <editor-state relative-caret-position="81">
+                <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+              </editor-state>
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"State.kt","foregroundColor":-1536119,"textAttributes":{"name":"a","children":[{"name":"option","attributes":{"name":"FOREGROUND","value":"e88f89"}}]},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,99,108,97,115,115,75,111,116,108,105,110,46,115,118,103,18,53,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,99,108,97,115,115,75,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-16,-50,-72,-55,2,48,0]}]]></tab>
+      </file>
+      <file>
+        <entry file="file://$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/Utils.kt">
+          <provider editor-type-id="android-source-code" selected="true">
+            <state>
+              <editor-state />
+            </state>
+          </provider>
+        </entry>
+        <tab><![CDATA[{"tabTitle":"Utils.kt","foregroundColor":-2960686,"textAttributes":{"name":"a"},"icon":[10,57,99,111,109,46,105,110,116,101,108,108,105,106,46,117,105,46,105,99,111,110,115,46,82,97,115,116,101,114,105,122,101,100,73,109,97,103,101,68,97,116,97,76,111,97,100,101,114,68,101,115,99,114,105,112,116,111,114,18,-122,1,10,47,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,107,111,116,108,105,110,95,102,105,108,101,46,115,118,103,18,48,111,114,103,47,106,101,116,98,114,97,105,110,115,47,107,111,116,108,105,110,47,105,100,101,97,47,105,99,111,110,115,47,101,120,112,117,105,47,107,111,116,108,105,110,46,115,118,103,26,20,111,114,103,46,106,101,116,98,114,97,105,110,115,46,107,111,116,108,105,110,40,-98,-111,-47,-25,-8,-1,-1,-1,-1,1,48,0]}]]></tab>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTypeUsageLocalSummary"><![CDATA[{
+  "data": {
+    "Gradle": {
+      "usageCount": 12,
+      "lastUsed": 1756525957647
+    },
+    "Kotlin": {
+      "usageCount": 30,
+      "lastUsed": 1756608700124
+    },
+    "Properties": {
+      "usageCount": 1,
+      "lastUsed": 1756525824315
+    },
+    "Markdown": {
+      "usageCount": 1,
+      "lastUsed": 1756525839942
+    },
+    "GitIgnore file": {
+      "usageCount": 2,
+      "lastUsed": 1756526320055
+    },
+    "XML": {
+      "usageCount": 3,
+      "lastUsed": 1756526330276
+    },
+    "JAVA": {
+      "usageCount": 1,
+      "lastUsed": 1756530968872
+    }
+  }
+}]]></component>
+  <component name="GitSEFilterConfiguration">{}</component>
+  <component name="IdeDocumentHistory"><![CDATA[{
+  "changedPaths": [
+    "/home/cooper/code/18848-decode/build.gradle",
+    "/home/cooper/code/18848-decode/TeamCode/build.gradle",
+    "/home/cooper/code/18848-decode/build.dependencies.gradle",
+    "/home/cooper/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/MkCRServo.kt",
+    "/home/cooper/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/MkServo.kt",
+    "/home/cooper/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/NgServo.kt",
+    "/home/cooper/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/NgCRServo.kt",
+    "/home/cooper/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/MkMotor.kt",
+    "/home/cooper/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/NgMotor.kt",
+    "/home/cooper/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/MkEncoder.kt",
+    "/home/cooper/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/NgEncoder.kt",
+    "/home/cooper/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/NgGamepad.kt",
+    "/home/cooper/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes/Teleop.kt",
+    "/home/cooper/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/state/state.kt",
+    "/home/cooper/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/subsystems/Drivetrain.kt",
+    "/home/cooper/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/state/State.kt"
+  ]
+}]]></component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LanguageUsageStatistics">
+    <language id="GitIgnore">
+      <summary usageCount="2" lastUsage="1756526320055" />
+    </language>
+    <language id="Groovy">
+      <summary usageCount="12" lastUsage="1756525957647" />
+    </language>
+    <language id="JAVA">
+      <summary usageCount="1" lastUsage="1756530968872" />
+    </language>
+    <language id="Markdown">
+      <summary usageCount="1" lastUsage="1756525839942" />
+    </language>
+    <language id="Properties">
+      <summary usageCount="1" lastUsage="1756525824315" />
+    </language>
+    <language id="XML">
+      <summary usageCount="3" lastUsage="1756526330276" />
+    </language>
+    <language id="kotlin">
+      <summary usageCount="30" lastUsage="1756608700124" />
+    </language>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="18848-decode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="18848-decode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="18848-decode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="18848-decode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="18848-decode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src/main/kotlin}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="18848-decode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src/main/kotlin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="18848-decode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src/main/kotlin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII}" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="18848-decode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src/main/kotlin}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII}" type="462c0819:PsiDirectoryNode" />
+              <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/state}" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+          <presentation>
+            <attributes />
+            <data iconPath="expui/toolwindows/project.svg" iconPlugin="com.intellij" isLeaf="false" text="18848-decode" />
+            <item name="18848-decode" type="b2602c69:ProjectViewProjectNode" />
+            <presentation>
+              <attributes>
+                <map>
+                  <entry key="filePath" value="$PROJECT_DIR$" />
+                </map>
+              </attributes>
+              <data iconPath="expui/nodes/module.svg" iconPlugin="com.intellij" isLeaf="false" text="18848-decode" />
+              <item name="dir{file:///home/cooper/code/18848-decode}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.github" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".github" />
+                <item name="dir{file:///home/cooper/code/18848-decode/.github}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.gradle" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text=".gradle" />
+                <item name="dir{file:///home/cooper/code/18848-decode/.gradle}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.idea" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text=".idea" />
+                <item name="dir{file:///home/cooper/code/18848-decode/.idea}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/doc" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="doc" />
+                <item name="dir{file:///home/cooper/code/18848-decode/doc}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/FtcRobotController" />
+                  </map>
+                </attributes>
+                <data iconPath="studio/icons/shell/filetree/library-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="FtcRobotController" />
+                <item name="dir{file:///home/cooper/code/18848-decode/FtcRobotController}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradle" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="gradle" />
+                <item name="dir{file:///home/cooper/code/18848-decode/gradle}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/libs" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="libs" />
+                <item name="dir{file:///home/cooper/code/18848-decode/libs}" type="462c0819:PsiDirectoryNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/TeamCode" />
+                  </map>
+                </attributes>
+                <data iconPath="studio/icons/shell/filetree/android-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="TeamCode" />
+                <item name="dir{file:///home/cooper/code/18848-decode/TeamCode}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/TeamCode/build" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/excludeRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="build" />
+                  <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/build}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/TeamCode/lib" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="lib" />
+                  <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/lib}" type="462c0819:PsiDirectoryNode" />
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/TeamCode/src" />
+                    </map>
+                  </attributes>
+                  <data iconPath="expui/nodes/folder.svg" iconPlugin="com.intellij" isLeaf="false" text="src" />
+                  <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src}" type="462c0819:PsiDirectoryNode" />
+                  <presentation>
+                    <attributes>
+                      <map>
+                        <entry key="filePath" value="$PROJECT_DIR$/TeamCode/src/main" />
+                      </map>
+                    </attributes>
+                    <data iconPath="studio/icons/shell/filetree/android-module.svg" iconPlugin="org.jetbrains.android" isLeaf="false" text="main" />
+                    <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src/main}" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/TeamCode/src/main/kotlin" />
+                        </map>
+                      </attributes>
+                      <data iconPath="expui/nodes/sourceRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="kotlin" />
+                      <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src/main/kotlin}" type="462c0819:PsiDirectoryNode" />
+                      <presentation>
+                        <attributes>
+                          <map>
+                            <entry key="filePath" value="$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode" />
+                          </map>
+                        </attributes>
+                        <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="org.firstinspires.ftc.teamcode" />
+                        <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode}" type="462c0819:PsiDirectoryNode" />
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII" />
+                            </map>
+                          </attributes>
+                          <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="robertMkII" />
+                          <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII}" type="462c0819:PsiDirectoryNode" />
+                          <presentation>
+                            <attributes>
+                              <map>
+                                <entry key="filePath" value="$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/hardware" />
+                              </map>
+                            </attributes>
+                            <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="hardware" />
+                            <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/hardware}" type="462c0819:PsiDirectoryNode" />
+                          </presentation>
+                          <presentation>
+                            <attributes>
+                              <map>
+                                <entry key="filePath" value="$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes" />
+                              </map>
+                            </attributes>
+                            <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="opmodes" />
+                            <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes}" type="462c0819:PsiDirectoryNode" />
+                          </presentation>
+                          <presentation>
+                            <attributes>
+                              <map>
+                                <entry key="filePath" value="$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/state" />
+                              </map>
+                            </attributes>
+                            <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="state" />
+                            <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/state}" type="462c0819:PsiDirectoryNode" />
+                            <presentation>
+                              <attributes>
+                                <map>
+                                  <entry key="filePath" value="$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/state/State.kt" />
+                                </map>
+                              </attributes>
+                              <data iconPath="org/jetbrains/kotlin/idea/icons/expui/classKotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="State" />
+                              <item name="State" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+                            </presentation>
+                          </presentation>
+                          <presentation>
+                            <attributes>
+                              <map>
+                                <entry key="filePath" value="$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/subsystems" />
+                              </map>
+                            </attributes>
+                            <data iconPath="expui/nodes/package.svg" iconPlugin="com.intellij" isLeaf="false" text="subsystems" />
+                            <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/subsystems}" type="462c0819:PsiDirectoryNode" />
+                          </presentation>
+                          <presentation>
+                            <attributes>
+                              <map>
+                                <entry key="filePath" value="$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/Utils.kt" />
+                              </map>
+                            </attributes>
+                            <data iconPath="org/jetbrains/kotlin/idea/icons/expui/kotlin.svg" iconPlugin="org.jetbrains.kotlin" isLeaf="true" text="Utils.kt" />
+                            <item name="Utils.kt" type="24436e51:KtFileTreeNode" />
+                          </presentation>
+                        </presentation>
+                        <presentation>
+                          <attributes>
+                            <map>
+                              <entry key="filePath" value="$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/readme.md" />
+                            </map>
+                          </attributes>
+                          <data iconPath="icons/MarkdownPlugin.svg" iconPlugin="org.intellij.plugins.markdown" isLeaf="true" text="readme.md" />
+                          <item name="readme.md" type="ab9368bb:PsiFileNode" />
+                        </presentation>
+                      </presentation>
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/TeamCode/src/main/res" />
+                        </map>
+                      </attributes>
+                      <data iconPath="modules/resourcesRoot.svg" iconPlugin="com.intellij" isLeaf="false" text="res" />
+                      <item name="dir{file:///home/cooper/code/18848-decode/TeamCode/src/main/res}" type="462c0819:PsiDirectoryNode" />
+                    </presentation>
+                    <presentation>
+                      <attributes>
+                        <map>
+                          <entry key="filePath" value="$PROJECT_DIR$/TeamCode/src/main/AndroidManifest.xml" />
+                        </map>
+                      </attributes>
+                      <data iconPath="studio/icons/shell/filetree/manifest-file.svg" iconPlugin="org.jetbrains.android" isLeaf="true" text="AndroidManifest.xml" />
+                      <item name="AndroidManifest.xml" type="ab9368bb:PsiFileNode" />
+                    </presentation>
+                  </presentation>
+                </presentation>
+                <presentation>
+                  <attributes>
+                    <map>
+                      <entry key="filePath" value="$PROJECT_DIR$/TeamCode/build.gradle" />
+                    </map>
+                  </attributes>
+                  <data iconPath="icons/gradleFile.svg" iconPlugin="com.intellij.gradle" isLeaf="true" text="build.gradle" />
+                  <item name="build.gradle" type="ab9368bb:PsiFileNode" />
+                </presentation>
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/.gitignore" />
+                  </map>
+                </attributes>
+                <data iconPath="vcs/ignore_file.svg" iconPlugin="com.intellij" isLeaf="true" text=".gitignore" />
+                <item name=".gitignore" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/build.common.gradle" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/gradleFile.svg" iconPlugin="com.intellij.gradle" isLeaf="true" text="build.common.gradle" />
+                <item name="build.common.gradle" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/build.dependencies.gradle" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/gradleFile.svg" iconPlugin="com.intellij.gradle" isLeaf="true" text="build.dependencies.gradle" />
+                <item name="build.dependencies.gradle" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/build.gradle" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/gradleFile.svg" iconPlugin="com.intellij.gradle" isLeaf="true" text="build.gradle" />
+                <item name="build.gradle" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradle.properties" />
+                  </map>
+                </attributes>
+                <data iconPath="fileTypes/properties.svg" iconPlugin="com.intellij" isLeaf="true" text="gradle.properties" />
+                <item name="gradle.properties" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradlew" />
+                  </map>
+                </attributes>
+                <data iconPath="fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew" />
+                <item name="gradlew" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/gradlew.bat" />
+                  </map>
+                </attributes>
+                <data iconPath="fileTypes/unknown.svg" iconPlugin="com.intellij" isLeaf="true" text="gradlew.bat" />
+                <item name="gradlew.bat" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/LICENSE" />
+                  </map>
+                </attributes>
+                <data iconPath="expui/fileTypes/text.svg" iconPlugin="com.intellij" isLeaf="true" text="LICENSE" />
+                <item name="LICENSE" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/local.properties" />
+                  </map>
+                </attributes>
+                <data iconPath="fileTypes/properties.svg" iconPlugin="com.intellij" isLeaf="true" text="local.properties" />
+                <item name="local.properties" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/README.md" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/MarkdownPlugin.svg" iconPlugin="org.intellij.plugins.markdown" isLeaf="true" text="README.md" />
+                <item name="README.md" type="ab9368bb:PsiFileNode" />
+              </presentation>
+              <presentation>
+                <attributes>
+                  <map>
+                    <entry key="filePath" value="$PROJECT_DIR$/settings.gradle" />
+                  </map>
+                </attributes>
+                <data iconPath="icons/gradleFile.svg" iconPlugin="com.intellij.gradle" isLeaf="true" text="settings.gradle" />
+                <item name="settings.gradle" type="ab9368bb:PsiFileNode" />
+              </presentation>
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="nodes/ppLib.svg" iconPlugin="com.intellij" isLeaf="false" text="External Libraries" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </presentation>
+            <presentation>
+              <attributes />
+              <data iconPath="scope/scratches.svg" iconPlugin="com.intellij" isLeaf="true" text="Scratches and Consoles" />
+              <item name="Scratches and Consoles" type="b85a3e1f:ScratchTreeStructureProvider$MyProjectNode" />
+            </presentation>
+          </presentation>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" currentWorkingDirectory="$PROJECT_DIR$" />
+    </option>
+  </component>
+  <component name="TerminalTabsStorage">
+    <option name="tabs">
+      <TerminalSessionPersistedTab name="Local" workingDirectory="$PROJECT_DIR$">
+        <option name="shellCommand">
+          <option value="/bin/zsh" />
+          <option value="-i" />
+        </option>
+      </TerminalSessionPersistedTab>
+    </option>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <layoutV2>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.5008278" weight="0.12657896" />
+      <window_info id="Commit" order="1" weight="0.18763158" />
+      <window_info id="Resources Explorer" order="2" weight="0.25" />
+      <window_info id="Structure" order="3" sideWeight="0.49917218" side_tool="true" weight="0.18763158" />
+      <window_info id="Pull Requests" order="4" weight="0.18763158" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32961166" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.33640778" />
+      <window_info anchor="bottom" id="Problems" order="2" />
+      <window_info anchor="bottom" id="Problems View" order="3" weight="0.32961166" />
+      <window_info anchor="bottom" id="Logcat" order="4" />
+      <window_info anchor="bottom" id="App Quality Insights" order="5" show_stripe_button="false" weight="0.32961166" />
+      <window_info anchor="bottom" id="Build" order="6" weight="0.32961166" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32961166" />
+      <window_info anchor="bottom" id="Find" order="8" weight="0.32961166" />
+      <window_info anchor="right" content_ui="combo" id="Notifications" order="0" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="1" weight="0.33026317" />
+      <window_info anchor="right" id="Device Manager" order="2" weight="0.25" />
+      <window_info anchor="right" id="Device Manager 2" order="3" weight="0.25" />
+      <window_info anchor="right" id="Running Devices" order="4" weight="0.25" />
+      <window_info anchor="right" id="StudioBot" order="5" show_stripe_button="false" weight="0.25" />
+      <window_info anchor="right" id="Assistant" order="6" weight="0.33026317" />
+      <window_info anchor="right" id="Hierarchy" order="7" weight="0.33026317" />
+      <unified_weights bottom="0.33640778" left="0.12657896" right="0.33026317" />
+    </layoutV2>
+    <recentWindows>
+      <value>Terminal</value>
+      <value>Project</value>
+      <value>Gradle</value>
+      <value>Hierarchy</value>
+      <value>Pull Requests</value>
+      <value>Commit</value>
+      <value>Structure</value>
+      <value>Build</value>
+      <value>Find</value>
+      <value>Version Control</value>
+      <value>Problems View</value>
+      <value>App Quality Insights</value>
+      <value>TODO</value>
+      <value>Assistant</value>
+    </recentWindows>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="735" y="187" key="#Web_Browsers_and_Preview.ideScale=125" timestamp="1756529041687">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="735" y="187" key="#Web_Browsers_and_Preview.ideScale=125/0.0.1920.1080@0.0.1920.1080" timestamp="1756529041687" />
+    <state x="695" y="224" key="FileChooserDialogImpl.ideScale=125" timestamp="1756525673715">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="695" y="224" key="FileChooserDialogImpl.ideScale=125/0.0.1920.1080@0.0.1920.1080" timestamp="1756525673715" />
+    <state x="721" y="438" width="475" height="172" key="ProcessPopupWindow.ideScale=125" timestamp="1756525836493">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="721" y="438" width="475" height="172" key="ProcessPopupWindow.ideScale=125/0.0.1920.1080@0.0.1920.1080" timestamp="1756525836493" />
+    <state x="469" y="175" key="SettingsEditor" timestamp="1756454036556">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="352" y="87" key="SettingsEditor.ideScale=125" timestamp="1756539910917">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="352" y="87" key="SettingsEditor.ideScale=125/0.0.1920.1080@0.0.1920.1080" timestamp="1756539910917" />
+    <state x="469" y="175" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1756454036556" />
+    <state x="540" y="237" width="840" height="1069" key="run.anything.popup.ideScale=125" timestamp="1756528688537">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="540" y="237" width="840" height="1069" key="run.anything.popup.ideScale=125/0.0.1920.1080@0.0.1920.1080" timestamp="1756528688537" />
+    <state x="539" y="35" width="840" height="1063" key="search.everywhere.popup.ideScale=125" timestamp="1756539301250">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="539" y="35" width="840" height="1063" key="search.everywhere.popup.ideScale=125/0.0.1920.1080@0.0.1920.1080" timestamp="1756539301250" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="15" column="75" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/robertMkII/Utils.kt" />
+    <entry file="file://$PROJECT_DIR$/build.dependencies.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-21465" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/AndroidProjectSystem.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1432" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/hardware/NgServo.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="296">
+            <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/hardware/NgEncoder.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="135">
+            <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/hardware/NgGamepad.kt" />
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/hardware/NgCRServo.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="135">
+            <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/hardware/GoBildaPinpointDriver.java">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="405">
+            <caret line="51" column="13" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/Utils.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/hardware/NgMotor.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="135">
+            <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes/BlankAuto.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="189">
+            <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/subsystems/Intake.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes/Auto.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="81">
+            <caret line="7" selection-start-line="7" selection-end-line="7" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes/Teleop.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="3942">
+            <caret line="135" column="33" selection-start-line="135" selection-start-column="33" selection-end-line="135" selection-end-column="33" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/subsystems/Drivetrain.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="810">
+            <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/state/State.kt">
+      <provider selected="true" editor-type-id="android-source-code">
+        <state>
+          <editor-state relative-caret-position="81">
+            <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          </editor-state>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

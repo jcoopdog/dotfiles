@@ -1,0 +1,15 @@
+font=jetbrains-mono 15
+background-color=#161616
+text-color=#ffffff
+border-size=3
+max-visible=-1
+
+on-button-middle=dismiss-all
+
+
+[urgency=low]
+border-color=#be95ff
+[urgency=normal]
+border-color=#42be65
+[urgency=critical]
+border-color=#ee5396

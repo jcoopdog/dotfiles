@@ -1,18 +1,28 @@
-
-format = '$python$gradle $directory λ '
+"$schema" = 'https://starship.rs/config-schema.json'
+# format = '$python$gradle $directory λ '
+format = ' [\($python$gradle$odin$directory\)](bold #3ddbd9) $character '
 right_format = '$git_branch $git_status $time'
 
 add_newline = false
 
+[character]
+format = '$symbol'
+success_symbol = '[->](white)'
+error_symbol = '[->](red)'
+vimcmd_symbol = '[-<](white)'
+
 [directory]
 format = '[$path]($style)[$read_only]($read_only_style)'
+style = '#ee5396'
 
 [time]
 format = '[$time]($style)'
+style = '#78a9ff bold'
 disabled = false
 
 [git_branch]
 format = '[$symbol$branch(:$remote_branch)]($style)'
+style = '#ee5396 bold'
 
 [git_status]
 format = '([$all_status]($style))'
@@ -26,7 +36,17 @@ modified = '(${count}! )'
 staged = '(${count}+ )'
 renamed = '(${count}» )'
 deleted = '(${count}✗ )'
+style = '#ff7eb6'
 
 [python]
-format = '[\($virtualenv\)]($style)'
-style = 'green bold'
+format = '[\($symbol($virtualenv )$version\)]($style) '
+symbol = '󰌠 '
+style = '#42be65 bold'
+
+[odin]
+format = '[\($symbol($version)\)]($style) '
+style = '#33b1ff bold'
+
+[gradle]
+format = '[\($symbol($version)\)]($style) '
+style = '#be95ff'

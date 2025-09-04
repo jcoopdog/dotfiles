@@ -16,11 +16,13 @@ set $right l
 
 
 exec pipewire
+exec mako
 
 ### Output configuration
 #
 # Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg ~/.config/wallpapers/trees.jpg fill
+# output * bg ~/.config/wallpapers/trees.jpg fill
+output * bg ~/.config/wallpapers/clouds.jpg fill
 #
 # Example configuration:
 #
@@ -32,10 +34,10 @@ output * bg ~/.config/wallpapers/trees.jpg fill
 #
 # Example configuration:
 #
-# exec swayidle -w \
-#          timeout 300 'swaylock -f -c 000000' \
-#          timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
-#          before-sleep 'swaylock -f -c 000000'
+exec swayidle -w \
+         timeout 300 'swaylock -f -c 000000' \
+         timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
+         before-sleep 'swaylock -f -c 000000'
 #
 # This will lock your screen after 300 seconds of inactivity, then turn off
 # your displays after another 300 seconds, and turn your screens back on when
@@ -51,11 +53,13 @@ output * bg ~/.config/wallpapers/trees.jpg fill
         natural_scroll enabled
         middle_emulation enabled
         drag_lock disabled
+        drag disabled
     }
-#
-#   input type:keyboard {
-#       xkb_layout "eu"
-#   }
+
+    input type:keyboard {
+        xkb_layout "us"
+        xkb_options "caps:super, compose:ralt"
+    }
 #
 # You can also configure each device individually.
 # Read `man 5 sway-input` for more information about this section.
@@ -118,6 +122,8 @@ output * bg ~/.config/wallpapers/trees.jpg fill
 #
 # Workspaces:
 #
+    workspace_auto_back_and_forth yes
+
     # Switch to workspace
     bindsym $mod+1 workspace number 1
     bindsym $mod+2 workspace number 2
@@ -129,6 +135,7 @@ output * bg ~/.config/wallpapers/trees.jpg fill
     bindsym $mod+8 workspace number 8
     bindsym $mod+9 workspace number 9
     bindsym $mod+0 workspace number 10
+    bindsym $mod+t workspace todo
     # Move focused container to workspace
     bindsym $mod+Shift+1 move container to workspace number 1
     bindsym $mod+Shift+2 move container to workspace number 2
@@ -154,7 +161,7 @@ output * bg ~/.config/wallpapers/trees.jpg fill
     # Switch the current container between different layout styles
     # bindsym $mod+s layout stacking
     # bindsym $mod+w layout tabbed
-    # bindsym $mod+e layout toggle split
+    bindsym $mod+e layout toggle split
 
     # Make the current focus fullscreen
     bindsym $mod+f fullscreen
@@ -179,6 +186,8 @@ output * bg ~/.config/wallpapers/trees.jpg fill
     # Show the next scratchpad window or hide the focused scratchpad window.
     # If there are multiple scratchpad windows, this command cycles through them.
     bindsym $mod+minus scratchpad show
+
+    bindsym $mod+o sticky toggle
 #
 # Resizing containers:
 #
@@ -207,9 +216,9 @@ bindsym $mod+r mode "resize"
 # Utilities:
 #
     # Special keys to adjust volume via PipeWire
-    bindsym --locked XF86AudioMute exec wpctl set-mute \@DEFAULT_SINK@ toggle
-    bindsym --locked XF86AudioLowerVolume exec wpctl set-volume \@DEFAULT_SINK@ -5%
-    bindsym --locked XF86AudioRaiseVolume exec wpctl set-volume \@DEFAULT_SINK@ +5%
+    bindsym --locked XF86AudioMute exec wpctl set-mute @DEFAULT_SINK@ toggle
+    bindsym --locked XF86AudioLowerVolume exec wpctl set-volume @DEFAULT_SINK@ -5%
+    bindsym --locked XF86AudioRaiseVolume exec wpctl set-volume @DEFAULT_SINK@ +5%
     # bindsym --locked XF86AudioMicMute exec pactl set-source-mute \@DEFAULT_SOURCE@ toggle
     bindsym --locked $mod+F8 exec wpctl set-mute @DEFAULT_SINK@ toggle
     bindsym --locked $mod+F9 exec wpctl set-volume @DEFAULT_SINK@ -5%
@@ -224,6 +233,8 @@ bindsym $mod+r mode "resize"
     bindsym $mod+Alt+s exec grim -g $(slurp)
     bindsym $mod+Shift+s exec 'grim -g "$(swaymsg -t get_tree | jq -j '.. | select(.type?) | select(.focused).rect | "\(.x),\(.y) \(.width)x\(.height)"')"
 
+    bindsym $mod+g exec hyprpicker
+
 
 # my additions
 default_border none
@@ -231,11 +242,11 @@ default_floating_border none
 
 font pango:jebrains-mono 15
 
-gaps inner 10px
-#gaps outer 10px
+gaps inner 30px
+gaps outer 30px
 
 # misc settings
-set $bg-color 	         #525252
+set $bg-color            #525252
 set $inactive-bg-color   #262626
 set $text-color          #dde1e6
 set $inactive-text-color #dde1e6
@@ -259,7 +270,9 @@ bar {
 
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
-    status_command while ~/.config/sway/sway_bar.sh; do sleep 1; done
+    # status_command "python ~/.config/sway/sway_bar.py"
+    # status_command while ~/.config/sway/sway_bar.sh; do sleep 1; done
+    status_command "~/.config/sway/sway_bar.sh"
 
     font pango:jebrains-mono 15
 
@@ -267,8 +280,8 @@ bar {
         statusline #f2f4f8
         background #161616
         inactive_workspace #161616 #161616 #393939
-	focused_workspace #161616 #ee5396 #f2f4f8
-	active_workspace #161616 #be95ff #f2f4f8
+        focused_workspace #161616 #ee5396 #f2f4f8
+        active_workspace #161616 #be95ff #f2f4f8
     }
 }
 

@@ -1,0 +1,244 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-cmd>
+        <entry encoding="base64">dw==</entry>
+        <entry encoding="base64">YWN0aW9ubGlzdA==</entry>
+        <entry encoding="base64" />
+        <entry encoding="base64">JzwsJz5zLzovL2c=</entry>
+        <entry encoding="base64">c2V0IGxpc3Q=</entry>
+        <entry encoding="base64">c2V0IG5vbGlzdA==</entry>
+      </history-cmd>
+      <history-search>
+        <entry encoding="base64">Og==</entry>
+      </history-search>
+    </history>
+  </component>
+  <component name="VimJumpsSettings">
+    <project id="18848-decode-8fbf65b4">
+      <jump line="0" column="0" filename="$USER_HOME$/code/18848-decode/build.gradle" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/code/18848-decode/TeamCode/build.gradle" protocol="file" />
+      <jump line="15" column="75" filename="$USER_HOME$/code/18848-decode/build.gradle" protocol="file" />
+      <jump line="16" column="28" filename="$USER_HOME$/code/18848-decode/TeamCode/build.gradle" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/code/18848-decode/build.dependencies.gradle" protocol="file" />
+      <jump line="8" column="44" filename="$USER_HOME$/code/18848-decode/build.dependencies.gradle" protocol="file" />
+      <jump line="0" column="48" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/robertMkII/Utils.kt" protocol="file" />
+      <jump line="10" column="0" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes/Auto.kt" protocol="file" />
+      <jump line="8" column="5" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes/Auto.kt" protocol="file" />
+      <jump line="16" column="62" filename="$USER_HOME$/code/18848-decode/build.dependencies.gradle" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/code/18848-decode/local.properties" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/code/18848-decode/README.md" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/code/18848-decode/settings.gradle" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/code/18848-decode/.idea/vcs.xml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/code/18848-decode/.idea/.gitignore" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/code/18848-decode/.idea/AndroidProjectSystem.xml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/code/18848-decode/.idea/workspace.xml" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/code/18848-decode/.gitignore" protocol="file" />
+      <jump line="19" column="13" filename="$USER_HOME$/code/18848-decode/TeamCode/build.gradle" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes/Teleop.kt" protocol="file" />
+      <jump line="20" column="8" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/NgServo.kt" protocol="file" />
+      <jump line="14" column="8" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/NgCRServo.kt" protocol="file" />
+      <jump line="6" column="8" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/NgEncoder.kt" protocol="file" />
+      <jump line="2" column="16" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/NgGamepad.kt" protocol="file" />
+      <jump line="4" column="35" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/NgGamepad.kt" protocol="file" />
+      <jump line="5" column="33" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/NgGamepad.kt" protocol="file" />
+      <jump line="7" column="25" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/NgGamepad.kt" protocol="file" />
+      <jump line="6" column="37" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/NgGamepad.kt" protocol="file" />
+      <jump line="26" column="14" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/NgGamepad.kt" protocol="file" />
+      <jump line="10" column="8" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/NgMotor.kt" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/Utils.kt" protocol="file" />
+      <jump line="13" column="34" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/subsystems/Drivetrain.kt" protocol="file" />
+      <jump line="6" column="78" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/subsystems/Drivetrain.kt" protocol="file" />
+      <jump line="14" column="8" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/hardware/NgCRServo.kt" protocol="file" />
+      <jump line="15" column="40" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/subsystems/Drivetrain.kt" protocol="file" />
+      <jump line="29" column="4" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/subsystems/Drivetrain.kt" protocol="file" />
+      <jump line="7" column="0" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/subsystems/Drivetrain.kt" protocol="file" />
+      <jump line="80" column="0" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes/Teleop.kt" protocol="file" />
+      <jump line="137" column="11" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes/Teleop.kt" protocol="file" />
+      <jump line="41" column="33" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes/Teleop.kt" protocol="file" />
+      <jump line="150" column="3" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes/Teleop.kt" protocol="file" />
+      <jump line="180" column="73" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes/Teleop.kt" protocol="file" />
+      <jump line="178" column="46" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes/Teleop.kt" protocol="file" />
+      <jump line="179" column="49" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes/Teleop.kt" protocol="file" />
+      <jump line="21" column="32" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/subsystems/Drivetrain.kt" protocol="file" />
+      <jump line="96" column="8" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes/Teleop.kt" protocol="file" />
+      <jump line="10" column="8" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/hardware/NgMotor.kt" protocol="file" />
+      <jump line="31" column="33" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes/Teleop.kt" protocol="file" />
+      <jump line="135" column="33" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes/Teleop.kt" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/subsystems/Intake.kt" protocol="file" />
+      <jump line="7" column="0" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes/Auto.kt" protocol="file" />
+      <jump line="10" column="6" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes/BlankAuto.kt" protocol="file" />
+      <jump line="51" column="13" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/hardware/GoBildaPinpointDriver.java" protocol="file" />
+      <jump line="42" column="9" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/subsystems/Drivetrain.kt" protocol="file" />
+      <jump line="12" column="43" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/subsystems/Drivetrain.kt" protocol="file" />
+      <jump line="19" column="0" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/subsystems/Drivetrain.kt" protocol="file" />
+      <jump line="20" column="9" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/subsystems/Drivetrain.kt" protocol="file" />
+      <jump line="40" column="0" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/subsystems/Drivetrain.kt" protocol="file" />
+      <jump line="14" column="4" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/subsystems/Drivetrain.kt" protocol="file" />
+      <jump line="37" column="23" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/subsystems/Drivetrain.kt" protocol="file" />
+      <jump line="3" column="4" filename="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/state/State.kt" protocol="file" />
+    </project>
+    <project id="18848IntoTheDeepFtcRobotController-ca359167">
+      <jump line="0" column="0" filename="$USER_HOME$/code/18848IntoTheDeepFtcRobotController/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/robertMkII/Utils.kt" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/code/18848IntoTheDeepFtcRobotController/README.md" protocol="file" />
+      <jump line="2" column="20" filename="$USER_HOME$/code/18848IntoTheDeepFtcRobotController/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/robertMkII/Utils.kt" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/code/18848IntoTheDeepFtcRobotController/build.gradle" protocol="file" />
+      <jump line="0" column="0" filename="$USER_HOME$/code/18848IntoTheDeepFtcRobotController/build.dependencies.gradle" protocol="file" />
+      <jump line="15" column="26" filename="$USER_HOME$/code/18848IntoTheDeepFtcRobotController/build.dependencies.gradle" protocol="file" />
+      <jump line="6" column="0" filename="$USER_HOME$/code/18848IntoTheDeepFtcRobotController/gradle.properties" protocol="file" />
+      <jump line="0" column="1" filename="$USER_HOME$/code/18848IntoTheDeepFtcRobotController/TeamCode/build.gradle" protocol="file" />
+      <jump line="32" column="43" filename="$USER_HOME$/code/18848IntoTheDeepFtcRobotController/TeamCode/build.gradle" protocol="file" />
+      <jump line="7" column="0" filename="$USER_HOME$/code/18848IntoTheDeepFtcRobotController/TeamCode/build.gradle" protocol="file" />
+      <jump line="1" column="0" filename="$USER_HOME$/code/18848IntoTheDeepFtcRobotController/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/robertMkII/Utils.kt" protocol="file" />
+      <jump line="2" column="0" filename="$USER_HOME$/code/18848IntoTheDeepFtcRobotController/TeamCode/src/main/java/org/firstinspires/ftc/teamcode/robertMkII/opmodes/Teleop.kt" protocol="file" />
+    </project>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <localmarks>
+      <file name="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/state/state.kt" timestamp="1756540591809">
+        <mark key="[" line="2" column="7" />
+      </file>
+      <file name="$USER_HOME$/code/18848-decode/.gitignore" timestamp="1756526338322">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/subsystems/Intake.kt" timestamp="1756528873544">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/subsystems/Drivetrain.kt" timestamp="1756598650001">
+        <mark key="[" line="44" column="12" />
+        <mark key="]" line="37" column="23" />
+        <mark key="." line="37" column="22" />
+        <mark key="^" line="37" column="23" />
+      </file>
+      <file name="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/MkMotor.kt" timestamp="1756528763580">
+        <mark key="[" line="10" column="13" />
+      </file>
+      <file name="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/MkCRServo.kt" timestamp="1756528642242">
+        <mark key="[" line="14" column="15" />
+      </file>
+      <file name="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/NgServo.kt" timestamp="1756528801141">
+        <mark key="&quot;" line="20" column="8" />
+      </file>
+      <file name="$USER_HOME$/code/18848-decode/.idea/workspace.xml" timestamp="1756526333696">
+        <mark key="&quot;" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes/Teleop.kt" timestamp="1756536135107">
+        <mark key="'" line="188" column="49" />
+        <mark key="[" line="81" column="32" />
+        <mark key="]" line="82" column="36" />
+        <mark key="^" line="82" column="36" />
+        <mark key="." line="82" column="35" />
+      </file>
+      <file name="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/MkEncoder.kt" timestamp="1756528776687">
+        <mark key="[" line="6" column="15" />
+      </file>
+      <file name="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/NgCRServo.kt" timestamp="1756528796981">
+        <mark key="&quot;" line="14" column="8" />
+        <mark key="[" line="14" column="6" />
+      </file>
+      <file name="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/NgEncoder.kt" timestamp="1756528799747">
+        <mark key="&quot;" line="6" column="8" />
+      </file>
+      <file name="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/hardware/GoBildaPinpointDriver.java" timestamp="1756539848251">
+        <mark key="&quot;" line="51" column="13" />
+      </file>
+      <file name="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/NgGamepad.kt" timestamp="1756529747605">
+        <mark key="&quot;" line="26" column="12" />
+        <mark key="[" line="26" column="13" />
+        <mark key="]" line="26" column="13" />
+        <mark key="^" line="26" column="15" />
+        <mark key="." line="26" column="13" />
+      </file>
+      <file name="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/hardware/NgCRServo.kt" timestamp="1756530977977">
+        <mark key="&quot;" line="14" column="8" />
+      </file>
+      <file name="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/opmodes/BlankAuto.kt" timestamp="1756528794825">
+        <mark key="&quot;" line="10" column="6" />
+      </file>
+      <file name="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/MkServo.kt" timestamp="1756528696911">
+        <mark key="[" line="20" column="6" />
+        <mark key="]" line="20" column="6" />
+        <mark key="." line="20" column="6" />
+      </file>
+      <file name="$USER_HOME$/code/18848-decode/TeamCode/build.gradle" timestamp="1756528235870">
+        <mark key="&quot;" line="19" column="13" />
+        <mark key="[" line="15" column="42" />
+        <mark key="]" line="16" column="29" />
+        <mark key="^" line="16" column="29" />
+        <mark key="." line="16" column="28" />
+      </file>
+      <file name="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/state/State.kt" timestamp="1756587733932">
+        <mark key="[" line="2" column="0" />
+        <mark key="]" line="4" column="1" />
+        <mark key="^" line="4" column="1" />
+        <mark key="." line="4" column="0" />
+      </file>
+      <file name="$USER_HOME$/code/18848-decode/TeamCode/src/main/kotlin/org/firstinspires/ftc/teamcode/robertMkII/wrappers/NgMotor.kt" timestamp="1756528798448">
+        <mark key="&quot;" line="10" column="8" />
+      </file>
+    </localmarks>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="CHARACTER_WISE">
+        <text encoding="base64">ICAgICAgICA=</text>
+      </register>
+      <register name="-" type="CHARACTER_WISE">
+        <text encoding="base64">ICAgICAgICA=</text>
+      </register>
+      <register name="." type="CHARACTER_WISE">
+        <text encoding="base64">ICgpIC0/PiA=</text>
+      </register>
+      <register name="/" type="CHARACTER_WISE">
+        <text encoding="base64">Og==</text>
+      </register>
+      <register name="0" type="LINE_WISE">
+        <text encoding="base64">ICAgIHByaXZhdGUgdmFyIG9sZFRpbWUgPSAwCg==</text>
+      </register>
+      <register name="1" type="BLOCK_WISE">
+        <text encoding="base64">cHJpdmF0ZSAKcHJpdmF0ZSA=</text>
+      </register>
+      <register name="2" type="LINE_WISE">
+        <text encoding="base64">ICAgIHByaXZhdGUgdmFsIGVyID0gRWxhcHNlZFRpbWUoKQogICAgcHJpdmF0ZSB2YWwgZXggPSBFbGFwc2VkVGltZSgpCg==</text>
+      </register>
+      <register name="3" type="LINE_WISE">
+        <text encoding="base64">ICAgIHByaXZhdGUgdmFsIGxvb3B0aW1lID0gRWxhcHNlZFRpbWUoKQo=</text>
+      </register>
+      <register name="4" type="LINE_WISE">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="5" type="LINE_WISE">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="6" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgICAgICAgdGVsZW1ldHJ5LmFkZExpbmUoImcyIHJ0ID0gc3BpbiBjb3JyZWN0IikK</text>
+      </register>
+      <register name="7" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgICAgICAgdGVsZW1ldHJ5LmFkZExpbmUoImcyIGEgPSB0b2dnbGUgd3Jpc3QiKQo=</text>
+      </register>
+      <register name="8" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgICAgICAgdGVsZW1ldHJ5LmFkZExpbmUoImcyIHkgPSB0b2dnbGUgcm90IikK</text>
+      </register>
+      <register name="9" type="LINE_WISE">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHRlbHQK</text>
+      </register>
+      <register name=":" type="CHARACTER_WISE">
+        <text encoding="base64">c2V0IG5vbGlzdA==</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-substitute encoding="base64">Og==</last-substitute>
+      <last-offset encoding="base64" />
+      <last-replace encoding="base64" />
+      <last-pattern encoding="base64">Og==</last-pattern>
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">ZmFsc2U=</show-last>
+    </search>
+  </component>
+  <component name="VimVariables">
+    <vim-variables />
+  </component>
+</application>

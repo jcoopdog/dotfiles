@@ -15,7 +15,8 @@ set list
 set termguicolors
 set nowrap
 set mousescroll=ver:3,hor:0
-set colorcolumn=100
+set spelllang=en_us
+"set colorcolumn=100
 set inccommand=split
 lua vim.diagnostic.config({ virtual_text = true })
 
@@ -24,7 +25,6 @@ autocmd! colorscheme oxocarbon InvertCmpColors
 set background=dark
 colorscheme oxocarbon
 "TransparentEnable
-
 
 nnoremap <silent> <leader>h <cmd>nohlsearch<cr>
 nnoremap <leader>q <cmd>close<cr>

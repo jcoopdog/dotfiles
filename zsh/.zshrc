@@ -44,6 +44,8 @@ bindkey '^\t' autosuggest-accept
 
 ZSH_AUTOSUGGEST_STRATEGY=(completion history)
 
+set ksharrays
+
 export EDITOR="nvim"
 export MANPAGER='nvim +Man!'
 export PAGER="less"

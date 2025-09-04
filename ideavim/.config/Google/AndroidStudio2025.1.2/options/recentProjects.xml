@@ -1,0 +1,41 @@
+<application>
+  <component name="RecentProjectsManager">
+    <option name="additionalInfo">
+      <map>
+        <entry key="$USER_HOME$/code/18848-decode">
+          <value>
+            <RecentProjectMetaInfo frameTitle="18848-decode – build.gradle (:TeamCode)" opened="true" projectWorkspaceId="31wufhtpt5PTAijRcmB6t8rnWzV">
+              <option name="activationTimestamp" value="1756609004602" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-251.26094.121.2512.13991807" />
+              <option name="buildTimestamp" value="1756165080000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="8" />
+              </option>
+              <frame x="10" y="10" width="1900" height="1030" extendedState="6" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1756454264848" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/code/18848IntoTheDeepFtcRobotController">
+          <value>
+            <RecentProjectMetaInfo frameTitle="18848IntoTheDeepFtcRobotController – Teleop.kt [18848IntoTheDeepFtcRobotController.TeamCode.main]" projectWorkspaceId="31x7xwaYpXkqzxuHsEsi1WVjHrF">
+              <option name="activationTimestamp" value="1756501822552" />
+              <option name="binFolder" value="$APPLICATION_HOME_DIR$/bin" />
+              <option name="build" value="AI-251.26094.121.2512.13991807" />
+              <option name="buildTimestamp" value="1756165080000" />
+              <option name="colorInfo">
+                <RecentProjectColorInfo associatedIndex="7" />
+              </option>
+              <frame x="10" y="10" width="1900" height="1030" extendedState="6" />
+              <option name="productionCode" value="AI" />
+              <option name="projectOpenTimestamp" value="1756500559008" />
+            </RecentProjectMetaInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="lastOpenedProject" value="$USER_HOME$/code/18848-decode" />
+  </component>
+</application>

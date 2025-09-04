@@ -1,0 +1,8 @@
+<application>
+  <component name="LafManager">
+    <laf themeId="0af50000-3240-48bd-9372-98b8f1ad135d" />
+    <lafs-to-previous-schemes>
+      <laf-to-scheme laf="0ea5bde0-53ac-4607-80f2-3d6e89691ea2" scheme="_@user_Oxocarbon Dark" />
+    </lafs-to-previous-schemes>
+  </component>
+</application>
