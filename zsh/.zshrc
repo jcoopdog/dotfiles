@@ -41,6 +41,7 @@ zinit load zdharma-continuum/fast-syntax-highlighting
 #zinit ice depth=1; zinit light romkatv/powerlevel10k
 #zinit load marlonrichert/zsh-autocomplete
 bindkey '^\t' autosuggest-accept
+bindkey '^R' history-incremental-search-backward
 
 ZSH_AUTOSUGGEST_STRATEGY=(completion history)
 
