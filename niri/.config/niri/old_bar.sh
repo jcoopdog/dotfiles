@@ -1,5 +1,7 @@
-#/usr/bin/env bash
+#/usr/bin/env bash --norc
 
+shopt -s checkwinsize; (:) # adds the $LINES and $COLUMNS variables
+echo -e '\e[?25l'
 battery_notify=100
 while true; do
     battery=$(< /sys/class/power_supply/BAT0/capacity)
@@ -18,7 +20,6 @@ while true; do
     else
         battery_notify=$battery
     fi
-
 
     if [ $battery_charging -eq 1 ]; then
         battery=+$battery
@@ -59,6 +60,24 @@ while true; do
         volicon=󰝟
     fi
 
-    printf "\n\n$vol$volicon | $brightness󰳲 | $battery% | $ssid | $datetime "
+    title=$(niri msg focused-window | grep Title)
+    title=${title#*\"}
+    title=${title%\"*}
+
+
+    if [ $(pgrep -x steam 2>&1 >> /dev/null; echo $?) -eq 0 ]; then
+        steam=" | "
+    else"
+        steam=""
+    fi
+
+    left="$title"
+    right="   $steam$vol$volicon | $brightness󰳲 | $battery% | $ssid | $datetime "
+    col=$(( $COLUMNS - ${#right} + 1 ))
+    echo -en '\e[2K'
+    echo -en '\e[0G'
+    echo -en "$left"
+    echo -en "\e[${col}G"
+    echo -en "$right"
     sleep 1
 done

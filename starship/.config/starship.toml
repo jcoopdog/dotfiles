@@ -1,7 +1,7 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 # format = '$python$gradle $directory λ '
-format = ' [\($python$gradle$odin$directory\)](bold #3ddbd9) $character '
-right_format = '$git_branch $git_status $time'
+format = ' [\($python$directory\)](bold #3ddbd9) $character '
+right_format = '$git_branch $git_status $time '
 
 add_newline = false
 
@@ -13,6 +13,7 @@ vimcmd_symbol = '[-<](white)'
 
 [directory]
 format = '[$path]($style)[$read_only]($read_only_style)'
+read_only = ''
 style = '#ee5396'
 
 [time]
@@ -39,8 +40,8 @@ deleted = '(${count}✗ )'
 style = '#ff7eb6'
 
 [python]
-format = '[\($symbol($virtualenv )$version\)]($style) '
-symbol = '󰌠 '
+format = '[\($symbol( $virtualenv)\)]($style) '
+symbol = '󰌠'
 style = '#42be65 bold'
 
 [odin]

@@ -10,79 +10,99 @@ set softtabstop=4
 set tabstop=4
 set shiftwidth=4
 set expandtab
-set listchars=eol:↴,tab:│·,space:·,extends:>,precedes:<,trail:~
+set listchars=eol:↴,tab:│·,space:·,trail:~
 set list
 set termguicolors
 set nowrap
-set mousescroll=ver:3,hor:0
 set spelllang=en_us
 "set colorcolumn=100
 set inccommand=split
+set mouse=nv
+set mousemodel=extend
+set mousescroll=ver:3,hor:0
+set showtabline=0
+"set winborder=single
 lua vim.diagnostic.config({ virtual_text = true })
 
 autocmd! colorscheme oxocarbon InvertCmpColors
+autocmd! colorscheme retrobox highlight! CursorColumn guibg=#353535 ctermbg=grey
+"autocmd! colorscheme retrobox IBLEnable
 
 set background=dark
-colorscheme oxocarbon
+colorscheme palenight
+IBLEnable
 "TransparentEnable
 
-nnoremap <silent> <leader>h <cmd>nohlsearch<cr>
+nnoremap <silent> <leader>n <cmd>nohlsearch<cr>
 nnoremap <leader>q <cmd>close<cr>
 nnoremap <leader>w <cmd>w<cr>
-nnoremap <leader>wa <cmd>wall<cr>
-nnoremap <leader>l <C-w>d
-nnoremap <leader>j <C-d>
-nnoremap <leader>k <C-u>
+nnoremap <leader>a <cmd>wall<cr>
+nnoremap <leader>l <C-w>l
+nnoremap <leader>j <C-w>j
+nnoremap <leader>k <C-w>k
+nnoremap <leader>h <C-w>h
+nnoremap <leader><leader> <C-w><C-w>
 nnoremap <leader>rn :IncRename 
 nnoremap <silent> - <cmd>Oil<cr>
+nnoremap <leader>ff <cmd>Telescope find_files<cr>
+nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+"nnoremap <leader>fb <cmd>Telescope buffers<cr>
+nnoremap <leader>fh <cmd>Telescope help_tags<cr>
+nnoremap <leader>fd <cmd>Telescope telescope-tabs list_tabs<cr>
 nnoremap U <C-r>
 nnoremap Y y$
-nnoremap <silent> <Tab> <cmd>tabnext<cr>
-nnoremap <silent> <S-Tab> <cmd>tabprev<cr>
+"nnoremap <silent> <Tab> <cmd>tabnext<cr>
+"nnoremap <silent> <S-Tab> <cmd>tabprev<cr>
 nnoremap <S-cr> o<Esc>
-inoremap <S-cr> <Esc>o
+"inoremap <S-cr> <Esc>o
 vnoremap <Tab> >
 vnoremap <S-Tab> <
+tnoremap <esc> <C-\><C-n>
 
 command! Q q
 command! Wq wq
 command! W w
 
+"gentoo vim plugins
+set rtp+=/usr/share/vim/vimfiles
+
+noremap <C-c> <Nop>
+noremap <F1> <Nop>
+
+"weird lsp things (might move later)
+lua << END
+
+vim.lsp.config('*', {
+    capabilities = require("cmp_nvim_lsp").default_capabilities(),
+})
+
+vim.lsp.config.ols = {
+    enable_format = false,
+}
+
+-- vim.lsp.config.kotlin_language_server = {
+--     capabilities = require("cmp_nvim_lsp").default_capabilities(),
+--     filetypes = { "kotlin" , "kt", "kts"},
+-- }
+
+END
 
 " force myself to use hjkl
-set mouse=
 " no arrow keys either
 " Normal mode
-nnoremap <Up> <Nop>
-nnoremap <Down> <Nop>
-nnoremap <Left> <Nop>
-nnoremap <Right> <Nop>
-
-" Insert mode
-inoremap <Up> <Nop>
-inoremap <Down> <Nop>
-inoremap <Left> <Nop>
-inoremap <Right> <Nop>
-
-" Visual mode
-vnoremap <Up> <Nop>
-vnoremap <Down> <Nop>
-vnoremap <Left> <Nop>
-vnoremap <Right> <Nop>
-
-"I am a vibe coder, but only when trying to bind something funny in neovim
-lua << EOF
-vim.keymap.set("i", "<C-j>", function()
-  local targets = { ['"'] = true, ["'"] = true, ["]"] = true, ["}"] = true, [")"] = true }
-  local row, col = unpack(vim.api.nvim_win_get_cursor(0))
-  local line = vim.api.nvim_get_current_line()
-
-  for i = col + 1, #line do
-    local char = line:sub(i, i)
-    if targets[char] then
-      vim.api.nvim_win_set_cursor(0, { row, i })
-      return
-    end
-  end
-end, { noremap = true, desc = "Jump to next paired char in insert mode" })
-EOF
+"nnoremap <Up> <Nop>
+"nnoremap <Down> <Nop>
+"nnoremap <Left> <Nop>
+"nnoremap <Right> <Nop>
+"
+"" Insert mode
+"inoremap <Up> <Nop>
+"inoremap <Down> <Nop>
+"inoremap <Left> <Nop>
+"inoremap <Right> <Nop>
+"
+"" Visual mode
+"vnoremap <Up> <Nop>
+"vnoremap <Down> <Nop>
+"vnoremap <Left> <Nop>
+"vnoremap <Right> <Nop>
