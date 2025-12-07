@@ -5,7 +5,7 @@ return {
         opts = {
             options = {
                 section_separators = '',
-                component_separators = '|',
+                component_separators = '',
             },
             sections = {
                 lualine_c = {'filename',
@@ -53,8 +53,6 @@ return {
     {
         "lukas-reineke/indent-blankline.nvim",
         main = "ibl",
-        ---@module "ibl"
-        ---@type ibl.config
         opts = {
             indent = {
                 highlight = {
@@ -83,4 +81,10 @@ return {
             }
         }
     },
+    {
+        "lewis6991/gitsigns.nvim",
+        opts = {
+
+        }
+    }
 }

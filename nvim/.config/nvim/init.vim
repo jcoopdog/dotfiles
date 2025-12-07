@@ -42,22 +42,35 @@ nnoremap <leader>j <C-w>j
 nnoremap <leader>k <C-w>k
 nnoremap <leader>h <C-w>h
 nnoremap <leader><leader> <C-w><C-w>
+nnoremap <silent> <leader>d <cmd>lua vim.diagnostic.open_float()<cr>
 nnoremap <leader>rn :IncRename 
 nnoremap <silent> - <cmd>Oil<cr>
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
-"nnoremap <leader>fb <cmd>Telescope buffers<cr>
+nnoremap <leader>fb <cmd>Telescope buffers<cr>
 nnoremap <leader>fh <cmd>Telescope help_tags<cr>
 nnoremap <leader>fd <cmd>Telescope telescope-tabs list_tabs<cr>
+nnoremap <leader>fl <cmd>Telescope oldfiles<cr>
 nnoremap U <C-r>
 nnoremap Y y$
-"nnoremap <silent> <Tab> <cmd>tabnext<cr>
-"nnoremap <silent> <S-Tab> <cmd>tabprev<cr>
+nnoremap <silent> <Tab> <cmd>tabnext<cr>
+nnoremap <silent> <S-Tab> <cmd>tabprev<cr>
 nnoremap <S-cr> o<Esc>
 "inoremap <S-cr> <Esc>o
 vnoremap <Tab> >
 vnoremap <S-Tab> <
 tnoremap <esc> <C-\><C-n>
+
+nnoremap <silent> <M-1> <cmd>tabn 1<cr>
+nnoremap <silent> <M-2> <cmd>tabn 2<cr>
+nnoremap <silent> <M-3> <cmd>tabn 3<cr>
+nnoremap <silent> <M-4> <cmd>tabn 4<cr>
+nnoremap <silent> <M-5> <cmd>tabn 5<cr>
+nnoremap <silent> <M-6> <cmd>tabn 6<cr>
+nnoremap <silent> <M-7> <cmd>tabn 7<cr>
+nnoremap <silent> <M-8> <cmd>tabn 8<cr>
+nnoremap <silent> <M-9> <cmd>tabn 9<cr>
+nnoremap <silent> <M-0> <cmd>tabn 10<cr>
 
 command! Q q
 command! Wq wq
