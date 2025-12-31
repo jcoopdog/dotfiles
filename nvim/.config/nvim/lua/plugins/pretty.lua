@@ -9,14 +9,14 @@ return {
             },
             sections = {
                 lualine_c = {'filename',
-                    {
-                        'tabs',
-                        show_modified_status = false,
-                        tabs_color = {
-                            inactive = 'lualine_c_normal',
-                            active = 'lualine_c_inactive',
-                        },
-                    },
+                    -- {
+                    --     'tabs',
+                    --     show_modified_status = false,
+                    --     tabs_color = {
+                    --         inactive = 'lualine_c_normal',
+                    --         active = 'lualine_c_inactive',
+                    --     },
+                    -- },
                 },
             },
         },
@@ -70,6 +70,16 @@ return {
             },
             scope = { enabled = false },
         },
+    },
+    {
+        "code-biscuits/nvim-biscuits",
+        dependencies = {
+            "nvim-treesitter/nvim-treesitter",
+        },
+        opts = {
+            -- Config goes here
+            cursor_line_only = true,
+        }
     },
     {
         "j-hui/fidget.nvim",

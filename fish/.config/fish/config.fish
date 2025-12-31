@@ -23,6 +23,9 @@ if status is-interactive
     alias rg "rg --hyperlink-format=kitty"
 
     alias sudo "doas"
+    alias reboot "doas /sbin/reboot"
+
+    alias nivm "nvim"
 
     alias please="doas (string split ' ' (history --max 1))"
 

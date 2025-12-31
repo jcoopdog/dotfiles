@@ -6,6 +6,8 @@ lua require("config.lazy")
 set incsearch
 set number
 set relativenumber
+set cursorline
+set cursorlineopt=number
 set softtabstop=4
 set tabstop=4
 set shiftwidth=4
@@ -24,23 +26,44 @@ set showtabline=0
 "set winborder=single
 lua vim.diagnostic.config({ virtual_text = true })
 
+augroup RnuToggle
+    autocmd!
+    autocmd InsertEnter * set nornu
+    autocmd InsertLeave * set rnu
+augroup END
+
 autocmd! colorscheme oxocarbon InvertCmpColors
 autocmd! colorscheme retrobox highlight! CursorColumn guibg=#353535 ctermbg=grey
 "autocmd! colorscheme retrobox IBLEnable
 
-set background=dark
+"set background=dark
 colorscheme palenight
 IBLEnable
 "TransparentEnable
+
+" am considering using standout for the line numbers
+hi CursorLineNr gui=bold guifg=orange
+hi @string gui=italic
+hi @comment gui=italic
+hi @lsp.type.enumMember gui=italic guifg=violet
+hi link BiscuitColor @comment
+
 
 nnoremap <silent> <leader>n <cmd>nohlsearch<cr>
 nnoremap <leader>q <cmd>close<cr>
 nnoremap <leader>w <cmd>w<cr>
 nnoremap <leader>a <cmd>wall<cr>
-nnoremap <leader>l <C-w>l
-nnoremap <leader>j <C-w>j
-nnoremap <leader>k <C-w>k
-nnoremap <leader>h <C-w>h
+nnoremap <leader>b <C-^>
+nmap     <leader>c gcc
+vmap     <leader>c gc
+nnoremap <leader>h <C-W>h
+nnoremap <leader>j <C-W>j
+nnoremap <leader>k <C-W>k
+nnoremap <leader>l <C-W>l
+nnoremap <leader>H <C-W>H
+nnoremap <leader>J <C-W>J
+nnoremap <leader>K <C-W>K
+nnoremap <leader>L <C-W>L
 nnoremap <leader><leader> <C-w><C-w>
 nnoremap <silent> <leader>d <cmd>lua vim.diagnostic.open_float()<cr>
 nnoremap <leader>rn :IncRename 
@@ -59,7 +82,8 @@ nnoremap <S-cr> o<Esc>
 "inoremap <S-cr> <Esc>o
 vnoremap <Tab> >
 vnoremap <S-Tab> <
-tnoremap <esc> <C-\><C-n>
+"tnoremap <esc> <C-\><C-n>
+nmap     s <C-S>
 
 nnoremap <silent> <M-1> <cmd>tabn 1<cr>
 nnoremap <silent> <M-2> <cmd>tabn 2<cr>

@@ -13,6 +13,7 @@ c.keyhint.radius = 0
 c.colors.webpage.darkmode.enabled = True
 c.downloads.location.remember = False
 c.content.autoplay = True
+c.auto_save.session = True
 
 c.url.default_page = DDG_HTML
 c.url.searchengines = {"DEFAULT": SEARCH + "?q={}"}
