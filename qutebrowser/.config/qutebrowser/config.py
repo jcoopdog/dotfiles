@@ -1,6 +1,7 @@
 c = c; config = config
 
 DDG_HTML = "https://html.duckduckgo.com"
+DDG_NOAI = "https://noai.duckduckgo.com"
 SEARCH = DDG_HTML + "/html"
 
 config.load_autoconfig(False)
@@ -15,9 +16,9 @@ c.downloads.location.remember = False
 c.content.autoplay = True
 c.auto_save.session = True
 
-c.url.default_page = DDG_HTML
-c.url.searchengines = {"DEFAULT": SEARCH + "?q={}"}
-c.url.start_pages = [DDG_HTML]
+c.url.default_page = DDG_NOAI
+c.url.searchengines = {"DEFAULT": DDG_NOAI + "/?q={}"}
+c.url.start_pages = [DDG_NOAI]
 
 config.unbind("<Ctrl-Q>")
 config.unbind("ZZ")

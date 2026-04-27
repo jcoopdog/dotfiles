@@ -129,12 +129,13 @@ layout {
     }
 }
 
-spawn-sh-at-startup "kitten desktop-ui run-server -o color_scheme=dark"
+// spawn-sh-at-startup "kitten desktop-ui run-server -o color_scheme=dark"
 
-spawn-at-startup "gentoo-pipewire-launcher"
+// spawn-at-startup "gentoo-pipewire-launcher"
+spawn-at-startup "pipewire"
 spawn-at-startup "~/.config/niri/bar.fish"
 spawn-at-startup "mako"
-spawn-sh-at-startup "swaybg -i ~/.config/wallpapers/clouds.jpg -m fill -o '*'"
+spawn-sh-at-startup "swaybg -i ~/.config/wallpapers/pixelss.png -m fill -o '*'"
 
 // cmatrix bg
 // spawn-sh-at-startup "kitty +kitten panel -o 'color5=#be95ff' --edge=background cmatrix -baC magenta"
@@ -154,7 +155,7 @@ screenshot-path "~/documents/screenshots/screenshot_%Y-%m-%d_%H-%M-%S.png"
 animations {
     // off
 
-    // slowdown 3.0
+    slowdown 0.5
 }
 
 // Open the Firefox picture-in-picture player as floating by default.
@@ -209,8 +210,11 @@ binds {
     // when running as a winit window.
 
     Mod+Return { spawn "kitty"; }
-    Mod+D { spawn "rofi" "-modi" "combi,window,drun" "-show" "combi" "-combi-modes" "window,drun"; }
-    Mod+Shift+D { spawn "rofi" "-show" "run"; }
+    // Mod+D { spawn "rofi" "-show" "combi"; }
+    // Mod+Shift+D { spawn "rofi" "-show" "run"; }
+    Mod+Space { spawn "rofi" "-show" "combi"; }
+    Mod+Shift+Space { spawn "rofi" "-show" "run"; }
+    Mod+Alt+Space { spawn "rofi" "-show" "calc"; }
     // Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
 
     XF86AudioRaiseVolume allow-when-locked=true { spawn-sh "wpctl set-volume -l 1.0 @DEFAULT_AUDIO_SINK@ 5%+ && ~/.config/mako/wp-vol.sh"; }

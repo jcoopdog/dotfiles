@@ -107,6 +107,9 @@ return {
                         return vim_item
                     end,
                 },
+                completion = {
+                    autoselect = false,
+                },
             })
         end,
     },
@@ -132,19 +135,19 @@ return {
         --     enable_check_bracket_line = false,
         -- }
     },
-    {
-        "Olical/conjure"
-    },
-    {
-        "PaterJason/cmp-conjure",
-        lazy = true,
-        config = function()
-            local cmp = require("cmp")
-            local config = cmp.get_config()
-            table.insert(config.sources, { name = "conjure" })
-            return cmp.setup(config)
-        end,
-    },
+    -- {
+    --     "Olical/conjure"
+    -- },
+    -- {
+    --     "PaterJason/cmp-conjure",
+    --     lazy = true,
+    --     config = function()
+    --         local cmp = require("cmp")
+    --         local config = cmp.get_config()
+    --         table.insert(config.sources, { name = "conjure" })
+    --         return cmp.setup(config)
+    --     end,
+    -- },
     {
         "kylechui/nvim-surround",
         event = "VeryLazy",

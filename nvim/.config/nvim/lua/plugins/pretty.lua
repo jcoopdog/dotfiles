@@ -71,16 +71,16 @@ return {
             scope = { enabled = false },
         },
     },
-    {
-        "code-biscuits/nvim-biscuits",
-        dependencies = {
-            "nvim-treesitter/nvim-treesitter",
-        },
-        opts = {
-            -- Config goes here
-            cursor_line_only = true,
-        }
-    },
+    -- {
+    --     "code-biscuits/nvim-biscuits",
+    --     dependencies = {
+    --         "nvim-treesitter/nvim-treesitter",
+    --     },
+    --     opts = {
+    --         -- Config goes here
+    --         cursor_line_only = true,
+    --     }
+    -- },
     {
         "j-hui/fidget.nvim",
         opts = {

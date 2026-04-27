@@ -8,9 +8,7 @@ set rnu
 set incsearch
 set shell=/bin/zsh
 
-nmap <C-s> <Action>(ActivateTerminalToolWindow)
-nmap <C-t> <Action>(ActivateTODOToolWindow)
-nnoremap <silent> <leader>h :nohlsearch<cr>
+nnoremap <silent> <leader>n :nohlsearch<cr>
 nnoremap <leader>w :write<cr>
 nnoremap <leader>wa :wall<cr>
 nnoremap <leader>e :e<cr>

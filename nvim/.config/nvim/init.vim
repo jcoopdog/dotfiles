@@ -17,12 +17,19 @@ set list
 set termguicolors
 set nowrap
 set spelllang=en_us
+set ignorecase
 "set colorcolumn=100
 set inccommand=split
 set mouse=nv
 set mousemodel=extend
 set mousescroll=ver:3,hor:0
 set showtabline=0
+"set foldenable
+"syn region myFold start="{" end="}" transparent fold
+"syn sync fromstart
+"set foldmethod=syntax
+"set foldmethod=indent
+"set foldlevel=999999
 "set winborder=single
 lua vim.diagnostic.config({ virtual_text = true })
 
@@ -37,7 +44,7 @@ autocmd! colorscheme retrobox highlight! CursorColumn guibg=#353535 ctermbg=grey
 "autocmd! colorscheme retrobox IBLEnable
 
 "set background=dark
-colorscheme palenight
+colorscheme retrobox
 IBLEnable
 "TransparentEnable
 
@@ -52,6 +59,7 @@ hi link BiscuitColor @comment
 nnoremap <silent> <leader>n <cmd>nohlsearch<cr>
 nnoremap <leader>q <cmd>close<cr>
 nnoremap <leader>w <cmd>w<cr>
+nnoremap <leader>e <cmd>e<cr>
 nnoremap <leader>a <cmd>wall<cr>
 nnoremap <leader>b <C-^>
 nmap     <leader>c gcc
@@ -83,7 +91,8 @@ nnoremap <S-cr> o<Esc>
 vnoremap <Tab> >
 vnoremap <S-Tab> <
 "tnoremap <esc> <C-\><C-n>
-nmap     s <C-S>
+tmap <esc> <C-S>
+nmap <leader>s <C-S>
 
 nnoremap <silent> <M-1> <cmd>tabn 1<cr>
 nnoremap <silent> <M-2> <cmd>tabn 2<cr>
@@ -121,6 +130,8 @@ vim.lsp.config.ols = {
 --     capabilities = require("cmp_nvim_lsp").default_capabilities(),
 --     filetypes = { "kotlin" , "kt", "kts"},
 -- }
+
+-- vim.treesitter.start()
 
 END
 
